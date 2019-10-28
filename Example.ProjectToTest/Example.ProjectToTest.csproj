@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2834DDBB-6E2C-464D-9364-FD6D5C4AF83E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Neoris.ProjectToTest</RootNamespace>
+    <AssemblyName>Neoris.ProjectToTest</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\Neoris.TAF.Crosscutting.Thirdparts\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\Neoris.TAF.Crosscutting.Thirdparts\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate">
+      <HintPath>..\Neoris.TAF.Crosscutting.Thirdparts\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\Neoris.TAF.Crosscutting.Thirdparts\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="NHibernate">
+      <HintPath>..\Neoris.TAF.Crosscutting.Thirdparts\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess">
+      <HintPath>..\Neoris.Fwk.TAF.Crosscutting.Thirdparty\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="SeleniumExtras.PageObjects, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Neoris.TAF.Core\bin\Debug\SeleniumExtras.PageObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="SeleniumExtras.WaitHelpers">
+      <HintPath>..\Neoris.TAF.Core\bin\Debug\SeleniumExtras.WaitHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=2.45.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Neoris.TAF.Core\bin\Debug\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=2.45.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Neoris.TAF.Core\bin\Debug\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01.Pagina1\HomePage.cs" />
+    <Compile Include="Pages.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Example.Test.Entities\Example.Test.Entities.csproj">
+      <Project>{32028775-0f13-48d4-b002-8eb5ef945032}</Project>
+      <Name>Example.Test.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Neoris.TAF.Entities\Neoris.TAF.Entities.csproj">
+      <Project>{0403f499-40bc-4e28-87b2-02288713a1c5}</Project>
+      <Name>Neoris.TAF.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Neoris.TAF.ResourceAccess.EntityFramework\Neoris.TAF.ResourceAccess.EntityFramework.csproj">
+      <Project>{ad4171ba-27d2-41f4-a798-112f13ee72b7}</Project>
+      <Name>Neoris.TAF.ResourceAccess.EntityFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Neoris.TAF.ResourceAccess.NHibernate\Neoris.TAF.ResourceAccess.NHibernate.csproj">
+      <Project>{4363a28e-ca6b-4d1c-aa89-6934a99cb94f}</Project>
+      <Name>Neoris.TAF.ResourceAccess.NHibernate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Neoris.TAF.Core\Neoris.TAF.Core.csproj">
+      <Project>{c0496855-809f-45cc-a5a7-0f5f7c2a9469}</Project>
+      <Name>Neoris.TAF.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Example.Test.ResourceAccess.EntitiesMappings\Example.Test.ResourceAccess.EntitiesMappings.csproj">
+      <Project>{a7013713-e5cf-4b4f-a24a-a05cfb3fd20e}</Project>
+      <Name>Example.Test.ResourceAccess.EntitiesMappings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Example.Test.ResourceAccess.Entities\Example.Test.ResourceAccess.Entities.csproj">
+      <Project>{6a9ae26d-c243-4b83-96a5-b65e86accd7c}</Project>
+      <Name>Example.Test.ResourceAccess.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Example.Test.ResourceAccess\Example.Test.ResourceAccess.csproj">
+      <Project>{03e686d7-7170-4795-83dc-b96da5764ad7}</Project>
+      <Name>Example.Test.ResourceAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

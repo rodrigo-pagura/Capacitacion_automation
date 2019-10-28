@@ -1,0 +1,163 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Fwk", "01. Fwk", "{B9B38853-4BCB-4E32-AF07-1D1A36272241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neoris.TAF.Core", "Neoris.TAF.Core\Neoris.TAF.Core.csproj", "{C0496855-809F-45CC-A5A7-0F5F7C2A9469}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Project", "03. Project", "{E723C51F-8CB4-49E2-AD95-B202E1C79CF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Test", "04. Test", "{7AD79809-BD00-4729-92CA-265BCDF84543}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.ProjectToTest", "Example.ProjectToTest\Example.ProjectToTest.csproj", "{2834DDBB-6E2C-464D-9364-FD6D5C4AF83E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Test", "Example.Test\Example.Test.csproj", "{F7AFCB53-EF92-482E-A9AB-1E3DEE8D5D7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neoris.TAF.ResourceAccess.EntityFramework", "Neoris.TAF.ResourceAccess.EntityFramework\Neoris.TAF.ResourceAccess.EntityFramework.csproj", "{AD4171BA-27D2-41F4-A798-112F13EE72B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Resource Access", "02. Resource Access", "{CBEE58E4-8F55-4F94-B989-6233CB31D019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Test.ResourceAccess", "Example.Test.ResourceAccess\Example.Test.ResourceAccess.csproj", "{03E686D7-7170-4795-83DC-B96DA5764AD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neoris.TAF.ResourceAccess.NHibernate", "Neoris.TAF.ResourceAccess.NHibernate\Neoris.TAF.ResourceAccess.NHibernate.csproj", "{4363A28E-CA6B-4D1C-AA89-6934A99CB94F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Resource Access", "02. Resource Access", "{F4895C00-5209-418F-89E0-D11858BB64CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.EntityFramework", "01.EntityFramework", "{8A7BC2B0-616F-4C57-8161-E2303C69F7A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.NHibernate", "02.NHibernate", "{DDFEB3C4-A66F-451F-A362-E53E726C8072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Test.ResourceAccess.Entities", "Example.Test.ResourceAccess.Entities\Example.Test.ResourceAccess.Entities.csproj", "{6A9AE26D-C243-4B83-96A5-B65E86ACCD7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Test.ResourceAccess.EntitiesMappings", "Example.Test.ResourceAccess.EntitiesMappings\Example.Test.ResourceAccess.EntitiesMappings.csproj", "{A7013713-E5CF-4B4F-A24A-A05CFB3FD20E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Automation", "01. Automation", "{0135B51B-B140-460F-83BC-360D50586CE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neoris.TAF.Crosscutting.Thirdparts", "Neoris.TAF.Crosscutting.Thirdparts\Neoris.TAF.Crosscutting.Thirdparts.csproj", "{5DEA7A41-473D-43E5-9395-BD071E57CE53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neoris.TAF.Entities", "Neoris.TAF.Entities\Neoris.TAF.Entities.csproj", "{0403F499-40BC-4E28-87B2-02288713A1C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Test.Entities", "Example.Test.Entities\Example.Test.Entities.csproj", "{32028775-0F13-48D4-B002-8EB5EF945032}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://arrosvmtfs07:8080/tfs/neoris
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Neoris.TAF.Crosscutting.Thirdparts\\Neoris.TAF.Crosscutting.Thirdparts.csproj
+		SccProjectTopLevelParentUniqueName1 = Neoris.TestAutomation.sln
+		SccProjectName1 = Neoris.TAF.Crosscutting.Thirdparts
+		SccLocalPath1 = Neoris.TAF.Crosscutting.Thirdparts
+		SccProjectUniqueName2 = Neoris.TAF.Entities\\Neoris.TAF.Entities.csproj
+		SccProjectTopLevelParentUniqueName2 = Neoris.TestAutomation.sln
+		SccProjectName2 = Neoris.TAF.Entities
+		SccLocalPath2 = Neoris.TAF.Entities
+		SccProjectUniqueName3 = Neoris.TAF.Core\\Neoris.TAF.Core.csproj
+		SccProjectTopLevelParentUniqueName3 = Neoris.TestAutomation.sln
+		SccProjectName3 = Neoris.TAF.Core
+		SccLocalPath3 = Neoris.TAF.Core
+		SccProjectUniqueName4 = Neoris.TAF.ResourceAccess.EntityFramework\\Neoris.TAF.ResourceAccess.EntityFramework.csproj
+		SccProjectTopLevelParentUniqueName4 = Neoris.TestAutomation.sln
+		SccProjectName4 = Neoris.TAF.ResourceAccess.EntityFramework
+		SccLocalPath4 = Neoris.TAF.ResourceAccess.EntityFramework
+		SccProjectUniqueName5 = Neoris.TAF.ResourceAccess.NHibernate\\Neoris.TAF.ResourceAccess.NHibernate.csproj
+		SccProjectTopLevelParentUniqueName5 = Neoris.TestAutomation.sln
+		SccProjectName5 = Neoris.TAF.ResourceAccess.NHibernate
+		SccLocalPath5 = Neoris.TAF.ResourceAccess.NHibernate
+		SccProjectUniqueName6 = Example.Test.ResourceAccess.Entities\\Example.Test.ResourceAccess.Entities.csproj
+		SccProjectTopLevelParentUniqueName6 = Neoris.TestAutomation.sln
+		SccProjectName6 = Example.Test.ResourceAccess.Entities
+		SccLocalPath6 = Example.Test.ResourceAccess.Entities
+		SccProjectUniqueName7 = Example.Test.ResourceAccess.EntitiesMappings\\Example.Test.ResourceAccess.EntitiesMappings.csproj
+		SccProjectTopLevelParentUniqueName7 = Neoris.TestAutomation.sln
+		SccProjectName7 = Example.Test.ResourceAccess.EntitiesMappings
+		SccLocalPath7 = Example.Test.ResourceAccess.EntitiesMappings
+		SccProjectUniqueName8 = Example.Test.ResourceAccess\\Example.Test.ResourceAccess.csproj
+		SccProjectTopLevelParentUniqueName8 = Neoris.TestAutomation.sln
+		SccProjectName8 = Example.Test.ResourceAccess
+		SccLocalPath8 = Example.Test.ResourceAccess
+		SccProjectUniqueName9 = Example.ProjectToTest\\Example.ProjectToTest.csproj
+		SccProjectTopLevelParentUniqueName9 = Neoris.TestAutomation.sln
+		SccProjectName9 = Example.ProjectToTest
+		SccLocalPath9 = Example.ProjectToTest
+		SccProjectUniqueName10 = Example.Test\\Example.Test.csproj
+		SccProjectTopLevelParentUniqueName10 = Neoris.TestAutomation.sln
+		SccProjectName10 = Example.Test
+		SccLocalPath10 = Example.Test
+		SccProjectUniqueName11 = Example.Test.Entities\\Example.Test.Entities.csproj
+		SccProjectTopLevelParentUniqueName11 = Neoris.TestAutomation.sln
+		SccProjectName11 = Example.Test.Entities
+		SccLocalPath11 = Example.Test.Entities
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0496855-809F-45CC-A5A7-0F5F7C2A9469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0496855-809F-45CC-A5A7-0F5F7C2A9469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0496855-809F-45CC-A5A7-0F5F7C2A9469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0496855-809F-45CC-A5A7-0F5F7C2A9469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2834DDBB-6E2C-464D-9364-FD6D5C4AF83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2834DDBB-6E2C-464D-9364-FD6D5C4AF83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2834DDBB-6E2C-464D-9364-FD6D5C4AF83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2834DDBB-6E2C-464D-9364-FD6D5C4AF83E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AFCB53-EF92-482E-A9AB-1E3DEE8D5D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AFCB53-EF92-482E-A9AB-1E3DEE8D5D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AFCB53-EF92-482E-A9AB-1E3DEE8D5D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AFCB53-EF92-482E-A9AB-1E3DEE8D5D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4171BA-27D2-41F4-A798-112F13EE72B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4171BA-27D2-41F4-A798-112F13EE72B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4171BA-27D2-41F4-A798-112F13EE72B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4171BA-27D2-41F4-A798-112F13EE72B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03E686D7-7170-4795-83DC-B96DA5764AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E686D7-7170-4795-83DC-B96DA5764AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E686D7-7170-4795-83DC-B96DA5764AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E686D7-7170-4795-83DC-B96DA5764AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4363A28E-CA6B-4D1C-AA89-6934A99CB94F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4363A28E-CA6B-4D1C-AA89-6934A99CB94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4363A28E-CA6B-4D1C-AA89-6934A99CB94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4363A28E-CA6B-4D1C-AA89-6934A99CB94F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9AE26D-C243-4B83-96A5-B65E86ACCD7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9AE26D-C243-4B83-96A5-B65E86ACCD7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9AE26D-C243-4B83-96A5-B65E86ACCD7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9AE26D-C243-4B83-96A5-B65E86ACCD7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7013713-E5CF-4B4F-A24A-A05CFB3FD20E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7013713-E5CF-4B4F-A24A-A05CFB3FD20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7013713-E5CF-4B4F-A24A-A05CFB3FD20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7013713-E5CF-4B4F-A24A-A05CFB3FD20E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEA7A41-473D-43E5-9395-BD071E57CE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEA7A41-473D-43E5-9395-BD071E57CE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEA7A41-473D-43E5-9395-BD071E57CE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEA7A41-473D-43E5-9395-BD071E57CE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0403F499-40BC-4E28-87B2-02288713A1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0403F499-40BC-4E28-87B2-02288713A1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0403F499-40BC-4E28-87B2-02288713A1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0403F499-40BC-4E28-87B2-02288713A1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32028775-0F13-48D4-B002-8EB5EF945032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32028775-0F13-48D4-B002-8EB5EF945032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32028775-0F13-48D4-B002-8EB5EF945032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32028775-0F13-48D4-B002-8EB5EF945032}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0135B51B-B140-460F-83BC-360D50586CE7} = {B9B38853-4BCB-4E32-AF07-1D1A36272241}
+		{F4895C00-5209-418F-89E0-D11858BB64CE} = {B9B38853-4BCB-4E32-AF07-1D1A36272241}
+		{5DEA7A41-473D-43E5-9395-BD071E57CE53} = {B9B38853-4BCB-4E32-AF07-1D1A36272241}
+		{0403F499-40BC-4E28-87B2-02288713A1C5} = {B9B38853-4BCB-4E32-AF07-1D1A36272241}
+		{C0496855-809F-45CC-A5A7-0F5F7C2A9469} = {0135B51B-B140-460F-83BC-360D50586CE7}
+		{2834DDBB-6E2C-464D-9364-FD6D5C4AF83E} = {E723C51F-8CB4-49E2-AD95-B202E1C79CF5}
+		{F7AFCB53-EF92-482E-A9AB-1E3DEE8D5D7D} = {7AD79809-BD00-4729-92CA-265BCDF84543}
+		{32028775-0F13-48D4-B002-8EB5EF945032} = {7AD79809-BD00-4729-92CA-265BCDF84543}
+		{DDFEB3C4-A66F-451F-A362-E53E726C8072} = {F4895C00-5209-418F-89E0-D11858BB64CE}
+		{8A7BC2B0-616F-4C57-8161-E2303C69F7A9} = {F4895C00-5209-418F-89E0-D11858BB64CE}
+		{03E686D7-7170-4795-83DC-B96DA5764AD7} = {CBEE58E4-8F55-4F94-B989-6233CB31D019}
+		{6A9AE26D-C243-4B83-96A5-B65E86ACCD7C} = {CBEE58E4-8F55-4F94-B989-6233CB31D019}
+		{A7013713-E5CF-4B4F-A24A-A05CFB3FD20E} = {CBEE58E4-8F55-4F94-B989-6233CB31D019}
+		{4363A28E-CA6B-4D1C-AA89-6934A99CB94F} = {DDFEB3C4-A66F-451F-A362-E53E726C8072}
+		{AD4171BA-27D2-41F4-A798-112F13EE72B7} = {8A7BC2B0-616F-4C57-8161-E2303C69F7A9}
+	EndGlobalSection
+EndGlobal

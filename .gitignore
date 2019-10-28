@@ -1,0 +1,26 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Example.ProjectToTest/bin/Debug
+/Example.ProjectToTest/obj
+/Example.Test/bin/Debug
+/Example.Test/obj
+/Example.Test.Entities/bin/Debug
+/Example.Test.Entities/obj
+/Example.Test.ResourceAccess/bin/Debug
+/Example.Test.ResourceAccess/obj
+/Example.Test.ResourceAccess.Entities/bin/Debug
+/Example.Test.ResourceAccess.Entities/obj
+/Example.Test.ResourceAccess.EntitiesMappings/bin/Debug
+/Example.Test.ResourceAccess.EntitiesMappings/obj
+/Neoris.TAF.Core/bin/Debug
+/Neoris.TAF.Core/obj
+/Neoris.TAF.Crosscutting.Thirdparts/bin/Debug
+/Neoris.TAF.Crosscutting.Thirdparts/obj
+/Neoris.TAF.Entities/bin/Debug
+/Neoris.TAF.Entities/obj
+/Neoris.TAF.ResourceAccess.EntityFramework/bin/Debug
+/Neoris.TAF.ResourceAccess.EntityFramework/obj
+/Neoris.TAF.ResourceAccess.NHibernate/bin/Debug
+/Neoris.TAF.ResourceAccess.NHibernate/obj
